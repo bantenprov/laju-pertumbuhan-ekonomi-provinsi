@@ -3,6 +3,6 @@
 if (! function_exists('pdrbHargaDasar')) {
     function pdrbHargaDasar()
     {
-        return 'Welcome to function pdrbHargaDasar() for Bantenprov\LpePprovinsi package';
+        return 'Welcome to function pdrbHargaDasar() for Bantenprov\LpeProvinsi package';
     }
 }

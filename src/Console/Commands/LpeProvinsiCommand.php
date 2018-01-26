@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\LpePprovinsi\Console\Commands;
+<?php namespace Bantenprov\LpeProvinsi\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * The LpePprovinsiCommand class.
+ * The LpeProvinsiCommand class.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsiCommand extends Command
+class LpeProvinsiCommand extends Command
 {
 
     /**
@@ -23,7 +23,7 @@ class LpePprovinsiCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Demo command for Bantenprov\LpePprovinsi package';
+    protected $description = 'Demo command for Bantenprov\LpeProvinsi package';
 
     /**
      * Create a new command instance.
@@ -42,6 +42,6 @@ class LpePprovinsiCommand extends Command
      */
     public function handle()
     {
-        $this->info('Welcome to command for Bantenprov\LpePprovinsi package');
+        $this->info('Welcome to command for Bantenprov\LpeProvinsi package');
     }
 }

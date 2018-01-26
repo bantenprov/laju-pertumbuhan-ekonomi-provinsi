@@ -1,15 +1,15 @@
-<?php namespace Bantenprov\LpePprovinsi;
+<?php namespace Bantenprov\LpeProvinsi;
 
 use Illuminate\Support\ServiceProvider;
-use Bantenprov\LpePprovinsi\Console\Commands\LpePprovinsiCommand;
+use Bantenprov\LpeProvinsi\Console\Commands\LpeProvinsiCommand;
 
 /**
- * The LpePprovinsiServiceProvider class
+ * The LpeProvinsiServiceProvider class
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsiServiceProvider extends ServiceProvider
+class LpeProvinsiServiceProvider extends ServiceProvider
 {
 
     /**
@@ -44,11 +44,11 @@ class LpePprovinsiServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('lpe-provinsi', function ($app) {
-            return new LpePprovinsi;
+            return new LpeProvinsi;
         });
 
         $this->app->singleton('command.lpe-provinsi', function ($app) {
-            return new LpePprovinsiCommand;
+            return new LpeProvinsiCommand;
         });
 
         $this->commands('command.lpe-provinsi');

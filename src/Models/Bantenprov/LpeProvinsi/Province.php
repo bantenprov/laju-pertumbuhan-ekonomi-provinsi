@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi;
+namespace Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi;
 
 
 use Illuminate\Database\Eloquent\Model;

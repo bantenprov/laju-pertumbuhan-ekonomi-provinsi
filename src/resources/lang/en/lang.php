@@ -8,13 +8,13 @@ return [
     |--------------------------------------------------------------------------
     |
     | The following language lines are used for development of package
-    | Bantenprov/LpePprovinsi
+    | Bantenprov/LpeProvinsi
     |
     */
 
     'author'         => 'bantenprov',
     'email'          => 'developer.bantenprov@gmail.com',
     'package_vendor' => 'Bantenprov',
-    'package_name'   => 'LpePprovinsi'
+    'package_name'   => 'LpeProvinsi'
 
 ];

@@ -1,11 +1,11 @@
 <?php
 
-namespace Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi;
+namespace Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class LpePprovinsi extends Model
+class LpeProvinsi extends Model
 {
 
     protected $table = 'lpe_provinsis';
@@ -18,12 +18,12 @@ class LpePprovinsi extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi\Province','id','province_id');
+        return $this->hasOne('Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi\Province','id','province_id');
     }
 
     public function getRegency()
     {
-        return $this->hasOne('Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi\Regency','id','regency_id');
+        return $this->hasOne('Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi\Regency','id','regency_id');
     }
 
 }

@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\LpePprovinsi\Exceptions;
+<?php namespace Bantenprov\LpeProvinsi\Exceptions;
 
 use Exception;
 
 /**
- * The LpePprovinsiException class.
+ * The LpeProvinsiException class.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsiException extends Exception
+class LpeProvinsiException extends Exception
 {
     //
 }

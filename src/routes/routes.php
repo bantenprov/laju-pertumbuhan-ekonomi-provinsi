@@ -3,12 +3,12 @@
 Route::group(['prefix' => 'lpe-provinsi', 'middleware' => ['web']], function() {
 
     $controllers = (object) [
-        'index'     => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@index',
-        'create'     => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@create',
-        'store'     => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@store',
-        'show'      => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@show',
-        'update'    => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@update',
-        'destroy'   => 'Bantenprov\LpePprovinsi\Http\Controllers\LpePprovinsiController@destroy',
+        'index'     => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@index',
+        'create'     => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@create',
+        'store'     => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@store',
+        'show'      => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@show',
+        'update'    => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@update',
+        'destroy'   => 'Bantenprov\LpeProvinsi\Http\Controllers\LpeProvinsiController@destroy',
     ];
 
     Route::get('/',$controllers->index)->name('lpe-provinsi.index');

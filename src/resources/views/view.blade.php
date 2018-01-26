@@ -1,1 +1,1 @@
-This is demo view file for Bantenprov\LpePprovinsi package using blade template
+This is demo view file for Bantenprov\LpeProvinsi package using blade template

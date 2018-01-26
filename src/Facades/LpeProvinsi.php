@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\LpePprovinsi\Facades;
+<?php namespace Bantenprov\LpeProvinsi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * The LpePprovinsi facade.
+ * The LpeProvinsi facade.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsi extends Facade
+class LpeProvinsi extends Facade
 {
     /**
      * Get the registered name of the component.

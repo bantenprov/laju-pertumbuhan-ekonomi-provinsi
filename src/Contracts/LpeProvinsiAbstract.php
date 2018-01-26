@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\LpePprovinsi\Contracts;
+<?php namespace Bantenprov\LpeProvinsi\Contracts;
 
 /**
- * The LpePprovinsiAbstract class
+ * The LpeProvinsiAbstract class
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-abstract class LpePprovinsiAbstract
+abstract class LpeProvinsiAbstract
 {
     //
 }

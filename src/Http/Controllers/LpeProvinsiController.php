@@ -1,25 +1,25 @@
-<?php namespace Bantenprov\LpePprovinsi\Http\Controllers;
+<?php namespace Bantenprov\LpeProvinsi\Http\Controllers;
 
 /* require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\LpePprovinsi\Facades\LpePprovinsi;
+use Bantenprov\LpeProvinsi\Facades\LpeProvinsi;
 
 /* Models */
-use Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi\LpePprovinsi as PdrbModel;
-use Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi\Province;
-use Bantenprov\LpePprovinsi\Models\Bantenprov\LpePprovinsi\Regency;
+use Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi\LpeProvinsi as PdrbModel;
+use Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi\Province;
+use Bantenprov\LpeProvinsi\Models\Bantenprov\LpeProvinsi\Regency;
 
 /* etc */
 use Validator;
 
 /**
- * The LpePprovinsiController class.
+ * The LpeProvinsiController class.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsiController extends Controller
+class LpeProvinsiController extends Controller
 {
 
     protected $province;

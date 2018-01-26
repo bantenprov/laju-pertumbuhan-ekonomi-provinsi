@@ -1,15 +1,15 @@
-<?php namespace Bantenprov\LpePprovinsi;
+<?php namespace Bantenprov\LpeProvinsi;
 
 /**
- * The LpePprovinsi class.
+ * The LpeProvinsi class.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsi
+class LpeProvinsi
 {
     public function welcome()
     {
-        return 'Welcome to Bantenprov\LpePprovinsi package';
+        return 'Welcome to Bantenprov\LpeProvinsi package';
     }
 }

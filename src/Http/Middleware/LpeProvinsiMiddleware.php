@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\LpePprovinsi\Http\Middleware;
+<?php namespace Bantenprov\LpeProvinsi\Http\Middleware;
 
 use Closure;
 
 /**
- * The LpePprovinsiMiddleware class.
+ * The LpeProvinsiMiddleware class.
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class LpePprovinsiMiddleware
+class LpeProvinsiMiddleware
 {
 
     /**

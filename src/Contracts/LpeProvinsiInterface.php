@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\LpePprovinsi\Contracts;
+<?php namespace Bantenprov\LpeProvinsi\Contracts;
 
 /**
- * The LpePprovinsiInterface interface
+ * The LpeProvinsiInterface interface
  *
- * @package Bantenprov\LpePprovinsi
+ * @package Bantenprov\LpeProvinsi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-interface LpePprovinsiInterface
+interface LpeProvinsiInterface
 {
     //
 }
