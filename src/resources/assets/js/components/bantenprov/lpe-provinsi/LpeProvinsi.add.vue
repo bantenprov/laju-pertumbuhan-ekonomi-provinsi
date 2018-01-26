@@ -9,7 +9,7 @@
           <div class="card mb-3">
             <div class="card-header"><i class="fa fa-bar-chart" aria-hidden="true"></i>Tambah Data PDRB</div>
             <div class="card-body">
-            <b-card header="Tambah PDRB Harga Dasar" header-tag="h4" class="bg-success-card">
+            <b-card header="Tambah lPE Provinsi" header-tag="h4" class="bg-success-card">
                           <vue-form class="form-horizontal form-validation" :state="formstate" @submit.prevent="onSubmit">
                             <div class="col-lg-12">
                                 <div class="form-group">

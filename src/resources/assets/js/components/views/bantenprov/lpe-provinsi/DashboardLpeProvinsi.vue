@@ -52,7 +52,7 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fa fa-bar-chart" aria-hidden="true"></i>
-              PDRB Harga Dasar Berdasarkan Wilayah
+              lPE Provinsi Berdasarkan Wilayah
             </div>
             <div class="card-body">
               <lpe-provinsi-bar-01></lpe-provinsi-bar-01>
@@ -65,7 +65,7 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fa fa-pie-chart" aria-hidden="true"></i>
-              PDRB Harga Dasar Berdasarkan Wilayah
+              lPE Provinsi Berdasarkan Wilayah
             </div>
             <div class="card-body">
               <lpe-provinsi-pie-01></lpe-provinsi-pie-01>
@@ -80,7 +80,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            PDRB Harga Dasar Berdasarkan Tahun
+            lPE Provinsi Berdasarkan Tahun
           </div>
           <div class="card-body">
             <lpe-provinsi-bar-02></lpe-provinsi-bar-02>
@@ -140,7 +140,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            PDRB Harga Dasar Berdasarkan Tahun
+            lPE Provinsi Berdasarkan Tahun
           </div>
           <div class="card-body">
             <lpe-provinsi-pie-02></lpe-provinsi-pie-02>

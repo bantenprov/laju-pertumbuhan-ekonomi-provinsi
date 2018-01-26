@@ -59,7 +59,7 @@ children: [
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
     meta: {
-      title: "PDRB Harga Dasar"
+      title: "lPE Provinsi"
     }
   }
 ```
@@ -78,7 +78,7 @@ children: [
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
       meta: {
-        title: "PDRB Harga Dasar"
+        title: "lPE Provinsi"
       }
     }
   ]
@@ -106,7 +106,7 @@ children: [
         },
         //== ...
         {
-          name: 'PDRB Harga Dasar',
+          name: 'lPE Provinsi',
           link: '/dashboard/lpe-provinsi',
           icon: 'fa fa-angle-double-right'
         }
