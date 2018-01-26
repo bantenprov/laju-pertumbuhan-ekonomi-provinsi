@@ -33,7 +33,7 @@ $ composer require bantenprov/lpe-provinsi:dev-master
 
 ```
 
-#### Tambahkan route di dalam : `resources/assets/js/routes.js` :
+#### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
 ```javascript
 path: '/dashboard',
@@ -152,7 +152,6 @@ Vue.component('lpe-provinsi-pie-02', LpeProvinsiPie02);
 import LpeProvinsiPie03 from './components/views/bantenprov/lpe-provinsi/LpeProvinsiPie03.vue';
 Vue.component('lpe-provinsi-pie-03', LpeProvinsiPie03);
 
-
 ```
 
 #### Untuk publish component vue :
@@ -161,5 +160,3 @@ Vue.component('lpe-provinsi-pie-03', LpeProvinsiPie03);
 $ php artisan vendor:publish --tag=pdrb-assets
 $ php artisan vendor:publish --tag=pdrb-public
 ```
-
-
