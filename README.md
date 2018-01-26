@@ -11,7 +11,7 @@ Laju Pertumbuhan Ekonomi (LPE) Provinsi Banten dan Indonesia
 #### Cara install :
 
 ```bash
-$ composer require bantenprov/lpe-provinsi:dev-master
+$ composer require bantenprov/laju-pertumbuhan-ekonomi-provinsi:dev-master
 ```
 
 #### Edit `config/app.php` :
