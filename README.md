@@ -70,8 +70,9 @@ path: '/admin',
 redirect: '/admin/dashboard',
 component: resolve => require(['./AdminLayout.vue'], resolve),
 children: [
+//== ...
     {
-      path: '/admin/dashboard',
+      path: '/admin/dashboard/lpe-provinsi',
       components: {
         main: resolve => require(['./components/bantenprov/lpe-provinsi/LpeProvinsiAdmin.show.vue'], resolve),
         navbar: resolve => require(['./components/Navbar.vue'], resolve),
@@ -81,6 +82,7 @@ children: [
         title: "lPE Provinsi"
       }
     }
+ //== ...   
   ]
 },
 
