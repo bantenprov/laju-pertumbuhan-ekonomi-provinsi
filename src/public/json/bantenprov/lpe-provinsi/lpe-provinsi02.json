@@ -2,252 +2,100 @@
   {
     "2011": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 5.74
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 7.03
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 5.99
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 6.75
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 6.10
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 7.39
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 6.62
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 8.34
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 8.81
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 6.17
       }
     ],
     "2012": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 5.81
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 6.83
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 5.11
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 6.17
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 5.42
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 7.07
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 7.70
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 7.42
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 8.66
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 6.03
       }
     ],
     "2013": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 4.72
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 6.67
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 6.30
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 6.41
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 6.04
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 6.52
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 6.69
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 7.30
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 8.75
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 5.56
       }
     ],
     "2014": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 5.01
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 5.47
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 6.04
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 5.76
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 5.99
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 5.64
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 4.93
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 7.07
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 8.50
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 5.02
       }
     ],
     "2015": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 5.97
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 5.37
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 5.93
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 4.79
+      }
+    ],
+    "2016 Triwulan 1": [
+      {
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 5.35
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 5.39
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 5.02
+      }
+    ],
+    "2016 Triwulan 2": [
+      {
+        "wilayah": "Banten",
+        "name": "Provinsi Banten",
+        "tingkat": "Provinsi",
+        "data": 5.21
       },
       {
-        "wilayah": "Kabupaten",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 5.14
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 5.58
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Cilegon",
-        "tingkat": "dua",
-        "data": 4.81
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 6.43
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 7.25
+        "wilayah": "Indonesia",
+        "name": "Indonesia",
+        "tingkat": "Negara",
+        "data": 5.04
       }
     ]
   }
