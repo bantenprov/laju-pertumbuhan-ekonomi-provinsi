@@ -5,6 +5,8 @@
         {
           "tingkat": "Provinsi",
           "name": "Banten",
+          "title": "Laju Pertumbuhan Ekonomi Provinsi Banten 2011-2016",
+          "index": "LPE Provinsi Banten 2011-2016",
           "tahun": [
             {
               "2011": 7.03,
@@ -20,6 +22,8 @@
         {
           "tingkat": "Negara",
           "name": "Indonesia",
+          "title": "Laju Pertumbuhan Ekonomi Negara Indonesia 2011-2016",
+          "index": "LPE Negara Indonesia 2011-2016",
           "tahun": [
             {
               "2011": 6.17,
