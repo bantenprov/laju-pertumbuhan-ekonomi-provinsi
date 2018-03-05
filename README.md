@@ -159,6 +159,6 @@ Vue.component('lpe-provinsi-pie-03', LpeProvinsiPie03);
 #### Untuk publish component vue :
 
 ```bash
-$ php artisan vendor:publish --tag=pdrb-assets
-$ php artisan vendor:publish --tag=pdrb-public
+$ php artisan vendor:publish --tag=lpe-provinsi-assets
+$ php artisan vendor:publish --tag=lpe-provinsi-public
 ```

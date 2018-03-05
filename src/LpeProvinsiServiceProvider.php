@@ -137,7 +137,7 @@ class LpeProvinsiServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packageAssetsPath => resource_path('assets'),
-        ], 'pdrb-assets');
+        ], 'lpe-provinsi-assets');
     }
 
     /**
@@ -162,6 +162,6 @@ class LpeProvinsiServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packagePublicPath => base_path('public')
-        ], 'pdrb-public');
+        ], 'lpe-provinsi-public');
     }
 }
