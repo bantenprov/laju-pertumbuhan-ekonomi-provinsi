@@ -1,4 +1,117 @@
-mounted: function () {
+<template>
+  <div style="width: 100%; height: 400px;">
+    <IEcharts :option="pie" :resizable="true"></IEcharts>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      pie: {
+        title: {
+          show: true,
+          text: '',
+          x: 'center',
+          textStyle: {
+            fontSize: 16,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          }
+        },
+        tooltip: {
+          show: true
+        },
+        toolbox: {
+          show : true,
+          orient : 'horizontal',
+          bottom: 0,
+          x: 'center',
+          feature : {
+            dataView: {
+              show: true,
+              lang: ['Data view', 'Cancel', ''],
+              readOnly: true,
+              backgroundColor: 'rgba(0,0,0,.65)',
+              textareaColor: 'rgba(0,0,0,.5)',
+              textareaBorderColor: 'rgba(0,0,0,.5)',
+              textColor: '#fff',
+              buttonColor: '#ddd',
+              buttonTextColor: '#333'
+            },
+            saveAsImage: {
+              show: true,
+              backgroundColor: 'transparent',
+              excludeComponents: ['toolbox', 'visualMap']
+            }
+          },
+          iconStyle: {
+            borderWidth: 1,
+            borderType: 'solid',
+            borderColor: '#fff'
+          }
+        },
+        visualMap: {
+          show: true,
+          type: 'continuous',
+          orient: 'horizontal',
+          bottom: 30,
+          x: 'center',
+          min: 1000,
+          max: 80000,
+          text: ['High', 'Low'],
+          calculable : false,
+          inRange: {
+            color: ['#B9F6CA', '#69F0AE', '#00C853'],
+          },
+          textStyle: {
+            color: '#fff'
+          }
+        },
+        series: [{
+          type:'pie',
+          data: [
+                {value:0, name:''},
+                {value:0, name:''},
+                {value:0, name:''},
+                {value:0, name:''},
+                {value:0, name:''},
+                {value:0, name:''},
+                {value:0, name:''}
+                ].sort(function (a, b) { return a.value - b.value; }),
+          radius: '55%',
+          roseType: 'radius',
+          cursor: 'default',
+          itemStyle: {
+            color: '#CDDC39'
+          },
+          label: {
+            show: true,
+            fontSize: 8,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          },
+          labelLine: {
+            show: true,
+            length: 10,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#fff'
+            }
+          },
+          animationType: 'scale',
+          animationEasing: 'elasticOut',
+          animationDelay: function (idx) {
+            return Math.random() * 200;
+          }
+        }]
+      }
+    }
+  },
+  mounted: function () {
     axios.get('/json/bantenprov/lpe-provinsi/lpe-provinsi01.json').then(response => {
 
       let i = 0;
@@ -37,3 +150,4 @@ mounted: function () {
     });
   }
 }
+</script>
