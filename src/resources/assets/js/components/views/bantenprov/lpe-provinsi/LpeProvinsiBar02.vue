@@ -58,7 +58,7 @@ export default {
           data: [],
           axisLabel: {
             show: true,
-            fontSize: 8,
+            fontSize: 10,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -90,7 +90,7 @@ export default {
           show: true,
           axisLabel: {
             show: true,
-            fontSize: 8,
+            fontSize: 10,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -140,7 +140,7 @@ export default {
         label: {
           show: true,
           position: 'top',
-          fontSize: 8,
+          fontSize: 10,
           fontWeight: 'normal',
           fontStyle: 'normal',
           color: '#fff'
@@ -151,42 +151,50 @@ export default {
   mounted: function () {
     axios.get('/json/bantenprov/lpe-provinsi/lpe-provinsi02.json').then(response => {
 
-      let obj_key = [];
-      var datas = response.data;
+      let ke = 0;
 
-      function removeDuplicates(arr){
-        var unique_array = []
-        for(var i = 0;i < arr.length; i++){
-          if(unique_array.indexOf(arr[i]) == -1){
-              unique_array.push(arr[i])
-          }
-        }
-        return unique_array
-      }
+      var res = response.data;
 
-      Object.values(datas[0])[0].forEach((data, index) => {
-        this.bar.xAxis.data[index] = data.name
-        this.bar.series[0].data[index].name   = data.name
-        this.bar.series[0].data[index].value  = data.data
-        this.bar.title.text = 'Laju Pertumbuhan Ekonomi Tahun  ' + Object.keys(datas[0])[0]
-      })
+      /**
+      * response :
+      * console.log(res)
+      *
+      * xAxis
+      * console.log(res[0].xAxis.data)
+      * console.log(Object.values(res[0].xAxis.data))
+      *
+      * series data
+      * console.log(res[0].series[0].data)
+      *
+      * region
+      * console.log(res[0].xAxis.region)
+      *
+      * length
+      * console.log(res.length);
+      */
 
-      var i = 1;
+      this.bar.xAxis.data = Object.values(res[0].xAxis.data);
+      this.bar.series[0].data = res[0].series[0].data;
+      this.bar.title.text = res[0].xAxis.title;
 
-      // perulangan
+      // interval
+      let i = 0;
+
       setInterval(() => {
-        Object.values(datas[0])[i].forEach((data, index) => {
-          this.bar.series[0].data[index].name   = data.name
-          this.bar.series[0].data[index].value  = data.data
-          this.bar.title.text = 'Laju Pertumbuhan Ekonomi Tahun ' + Object.keys(datas[0])[i]
-        });
+
+        this.bar.xAxis.data = Object.values(res[i].xAxis.data);
+        this.bar.series[0].data = res[i].series[0].data;
+        this.bar.title.text = res[i].xAxis.title;
 
         i++;
 
-        if(i == Object.keys(datas[0]).length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 4000)
+
+      },4000);
+
     })
     .catch(function(error) {
       // error

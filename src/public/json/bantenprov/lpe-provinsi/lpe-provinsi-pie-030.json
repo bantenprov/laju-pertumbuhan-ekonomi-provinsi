@@ -1,0 +1,84 @@
+[
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi Provinsi Banten",
+        "region": "Kabupaten",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 7.03,
+              "name": "2011"
+            },
+            {
+              "value": 6.83,
+              "name": "2012"
+            },
+            {
+              "value": 6.67,
+              "name": "2013"
+            },
+            {
+              "value": 5.47,
+              "name": "2014"
+            },
+            {
+              "value": 5.37,
+              "name": "2015"
+            },
+            {
+              "value": 5.35,
+              "name": "2016 Triwulan 1"
+            },
+            {
+              "value": 5.21,
+              "name": "2016 Triwulan 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi Negara Indonesia",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 6.17,
+              "name": "2011"
+            },
+            {
+              "value": 6.03,
+              "name": "2012"
+            },
+            {
+              "value": 5.56,
+              "name": "2013"
+            },
+            {
+              "value": 5.02,
+              "name": "2014"
+            },
+            {
+              "value": 4.79,
+              "name": "2015"
+            },
+            {
+              "value": 5.02,
+              "name": "2016 Triwulan 1"
+            },
+            {
+              "value": 5.04,
+              "name": "2016 Triwulan 2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
