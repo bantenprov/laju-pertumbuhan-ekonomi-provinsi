@@ -1,0 +1,227 @@
+[
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi 2011",
+        "region": "Kabupaten",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 5.74,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 5.99,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 6.75,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 6.10,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 7.39,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 6.62,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 8.34,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 8.81,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi 2012",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 5.81,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 5.11,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 6.17,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 5.42,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 7.07,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 7.70,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 7.42,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 8.66,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi 2013",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 4.72,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 6.30,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 6.41,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 6.04,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 6.52,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 6.69,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 7.30,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 8.75,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi 2014",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 5.01,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 6.04,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 5.76,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 5.99,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 5.64,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 4.93,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 7.07,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 8.50,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xAxis": {
+        "title": "Laju Pertumbuhan Ekonomi 2015",
+        "region": "Kota",
+        "yyyy": "September 2014"
+      },
+      "series": [
+        {
+          "data": [
+            {
+              "value": 5.97,
+              "name": "Kabupaten Pandeglang"
+            },
+            {
+              "value": 5.93,
+              "name": "Kabupaten Lebak"
+            },
+            {
+              "value": 5.39,
+              "name": "Kabupaten Tangerang"
+            },
+            {
+              "value": 5.14,
+              "name": "Kabupaten Serang"
+            },
+            {
+              "value": 5.58,
+              "name": "Kota Tangerang"
+            },
+            {
+              "value": 4.81,
+              "name": "Kota Cilegon"
+            },
+            {
+              "value": 6.43,
+              "name": "Kota Serang"
+            },
+            {
+              "value": 7.25,
+              "name": "Kota Tangerang Selatan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
